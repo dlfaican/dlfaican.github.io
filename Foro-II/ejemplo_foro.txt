@@ -1,0 +1,9 @@
+<h2 style="color: darkgreen;">Universidad de las Fuerzas Armadas - ESPE</h2>
+<br>
+<h4><bond>Nombre:</bond> Domenica Lizbeth Faican Camacho</h4>
+	
+<h4><bond>NRC:</bond>8496</h4>
+	
+<h4><bond>Tema:</bond>Foro AJAX & XMLHttpRequest</h4>
+<br>
+<p style="color: purple;"><bond>Sobre mi:</bond> Me gusta el grupo de música BTS y jugar Valorant. :D</p>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>FORO AJAX & XMLHttpRequest</h1>
+
+<p id="demo">Domenica Lizbeth Faican Camacho</p>
+
+<button type="button" onclick="loadDoc()">Cambiar Contenido</button>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "ejemplo_foro.txt", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
